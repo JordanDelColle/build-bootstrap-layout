@@ -11,7 +11,67 @@
     <title>Bootstrap Layout E01</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link active" href="#">Docs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Examples</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Icons</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Themes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="container bg-dark mt-5 text-light">
+        <h2>Header Banner Area</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, labore error et voluptatem, unde distinctio placeat repudiandae aut dolorum optio aliquid maxime saepe voluptate blanditiis quia consequuntur similique non quae?</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+
+          <!-- To Do: Add the grid system here for col 1. form, col 2. heading and text, col 3. heading and text -->
+    
+          <!-- create a form - this will have to be moved into the grid system  -->
+          <form class="mb-2 p-3 bg-primary col-12 col-lg-6 text-light">
+            <h2>Sign In</h2>
+            <div class="form-group">
+              <label for="email">Your Email Address</label>
+              <input class="form-control" type="email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input class="form-control" type="password" id="password">
+            </div>
+            <div class="form-group mt-2 mb-2">
+              <input class="form-check-input" type="checkbox" id="pw-save" name="saved-pw">
+              <label for="pw-save">Save Password</label>
+              
+            </div>
+            <button class="btn btn-light" type="submit">Login</button>
+          </form>
+          <!-- <div class="row"> -->
+  
+            <div class="col-12 col-md-6 col-lg-3 mb-2">
+              <h2>Heading</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi a possimus sunt numquam esse eius harum earum reiciendis autem ea quae nostrum quo et neque perferendis, aperiam est ipsum?</p>
+              <a class="btn btn-primary" href="#">View More</a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-5">
+              <h2>Heading</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae natus ipsa possimus fuga a voluptatibus accusantium omnis accusamus fugiat saepe iusto consequatur explicabo maxime optio nulla cumque, quas praesentium vitae!</p>
+              <a class="btn btn-primary" href="#">View More</a>
+            </div>
+          <!-- </div> -->
+        </div>
+        
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
